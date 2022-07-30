@@ -1,0 +1,16 @@
+{
+  "name": "assignmentone",
+  "version": "1.0.0",
+  "description": "Assignment One for Coursera course Front-end Web UI Frameworks Overview: Bootstrap",
+  "main": "aboutus.html",
+  "scripts": {
+    "start": "npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server -c configs/bs-config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
