@@ -17,7 +17,8 @@ found [here](https://www.coursera.org/learn/bootstrap-4/peer/e9axj/assignment-1-
 
 ### lite-server
 
-This project uses Node.js. To start the development server, execute: `npm start`. This runs the start script specified
+This project uses Node.js. To start the lite-server for development, execute: `npm start`. This runs the start script
+specified
 in
 `package.json`. The start script starts the lite-server.
 
