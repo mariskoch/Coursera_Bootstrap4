@@ -56,3 +56,9 @@ body {
 #reserveButton {
     color: #0f0f0f;
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
