@@ -4,14 +4,16 @@
   "description": "Assignment One for Coursera course Front-end Web UI Frameworks Overview: Bootstrap",
   "main": "aboutus.html",
   "scripts": {
-    "start": "npm run server",
+    "start": "npm run scss && npm run server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "lite-server -c configs/bs-config.json"
+    "server": "lite-server -c configs/bs-config.json",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.3"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
